@@ -31,7 +31,7 @@ const STEPS = [
     icon: '✅',
     title: 'Admin Approval',
     description:
-      'Once verified, our admin team approves your application. You'll receive a notification when you're ready to accept bookings.',
+      "Once verified, our admin team approves your application. You'll receive a notification when you're ready to accept bookings.",
   },
   {
     step: '04',
