@@ -34,14 +34,14 @@ export default function CustomerLayout() {
         name="home"
         options={{
           title: 'Home',
-          tabBarIcon: ({ focused }) => <TabIcon icon="🏠" active={focused} />,
+          tabBarIcon: ({ focused }: { focused: boolean }) => <TabIcon icon="🏠" active={focused} />,
         }}
       />
       <Tabs.Screen
         name="account"
         options={{
           title: 'Account',
-          tabBarIcon: ({ focused }) => <TabIcon icon="👤" active={focused} />,
+          tabBarIcon: ({ focused }: { focused: boolean }) => <TabIcon icon="👤" active={focused} />,
         }}
       />
     </Tabs>
